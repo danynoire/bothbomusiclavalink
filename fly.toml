@@ -1,0 +1,12 @@
+app = "hb-lavalink"
+primary_region = "gru"
+
+[build]
+  dockerfile = "Dockerfile"
+
+[[services]]
+  internal_port = 2333
+  protocol = "tcp"
+
+  [[services.ports]]
+    port = 2333
